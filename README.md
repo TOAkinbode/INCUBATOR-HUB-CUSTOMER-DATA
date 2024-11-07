@@ -1,2 +1,3 @@
-# INCUBATOR-HUB-CUSTOMER-DATA
-Analysis of Incubator Hub Capstone Data
+# INCUBATOR-HUB-CAPSTONE-CUSTOMER-DATA
+Analysis of Incubator Hub Capstone Project's Customer Data
+
