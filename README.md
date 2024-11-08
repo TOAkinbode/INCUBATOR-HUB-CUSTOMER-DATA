@@ -233,9 +233,20 @@ select canceled, sum(Non_Active_subscription) as Number_of_nonActive_Sub
 from [dbo].[LITA_CUSTOMER_DATA] group by canceled
 ```
 
+##### Below are some of the Results of the Queries Executed
+![Screenshot 2024-11-08 224650](https://github.com/user-attachments/assets/c66ae9a4-581f-415c-abe2-5c2954a7c5b9)
 
+![Screenshot 2024-11-08 224715](https://github.com/user-attachments/assets/52f04f77-d7b0-4fe2-b47c-a4baeb5b2a3f)
 
+![Screenshot 2024-11-08 224854](https://github.com/user-attachments/assets/0e7c40bd-14a2-47cc-940d-0262240887ab)
 
+![Screenshot 2024-11-08 224931](https://github.com/user-attachments/assets/083f03fb-c0f5-42e9-96f9-a58051dcbb1c)
+
+![Screenshot 2024-11-08 225939](https://github.com/user-attachments/assets/2f6acef6-023e-43b1-a179-787b56c93d67)
+
+![Screenshot 2024-11-08 230136](https://github.com/user-attachments/assets/4a113a94-69dd-4fea-8e8d-820c71e67126)
+
+![Screenshot 2024-11-08 230230](https://github.com/user-attachments/assets/8b281ecf-bb77-4611-a317-3db56c878f1b)
 
 
 
