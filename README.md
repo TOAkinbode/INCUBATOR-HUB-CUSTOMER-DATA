@@ -117,18 +117,31 @@ The data used on excel was also imported to power Bi through the following steps
 ```
 ##### Below are the pivot tables and pivot charts generated on Excel
 ![Screenshot 2024-11-08 205436](https://github.com/user-attachments/assets/4d5bbd35-c453-4d85-b9cd-25fa3378891e)
+
 ![Screenshot 2024-11-08 205444](https://github.com/user-attachments/assets/c653f108-cf02-4df2-a68d-51795fc30e76)
+
 ![Screenshot 2024-11-08 205305](https://github.com/user-attachments/assets/42a3e74b-1b97-4bc9-8191-1ae5fe06eb3d)
+
 ![Screenshot 2024-11-08 205103](https://github.com/user-attachments/assets/0432b4a2-dafb-49de-9bef-19cd66557315)
+
 ![Screenshot 2024-11-08 205112](https://github.com/user-attachments/assets/e703b521-ca33-4f37-8be4-ed77a81b69d4)
+
 ![Screenshot 2024-11-08 205119](https://github.com/user-attachments/assets/c10e9710-b5e6-48d0-91d9-f55269acba18)
+
 ![Screenshot 2024-11-08 205127](https://github.com/user-attachments/assets/91e36d50-f2ad-4d36-8f28-502187460a8d)
+
 ![Screenshot 2024-11-08 205153](https://github.com/user-attachments/assets/9b182e99-3024-4443-870b-491fd2712265)
+
 ![Screenshot 2024-11-08 205200](https://github.com/user-attachments/assets/c426f866-404d-43fa-a5ae-837514c451d3)
+
 ![Screenshot 2024-11-08 205208](https://github.com/user-attachments/assets/1a1a8e26-00b9-455c-b589-bb2a161abbec)
+
 ![Screenshot 2024-11-08 205321](https://github.com/user-attachments/assets/2aa82ce2-a244-41fe-a0f6-810ba1461a83)
+
 ![Screenshot 2024-11-08 205331](https://github.com/user-attachments/assets/e40d73bb-56da-413a-8bea-3743adb92dc9)
+
 ![Screenshot 2024-11-08 205352](https://github.com/user-attachments/assets/3c86bc50-b684-47bc-9533-4697427d1c09)
+
 ![Screenshot 2024-11-08 205408](https://github.com/user-attachments/assets/956ff77c-5767-417c-a5b6-63068315cf48)
 
 
