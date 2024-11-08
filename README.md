@@ -257,4 +257,11 @@ from [dbo].[LITA_CUSTOMER_DATA] group by canceled
 ![Screenshot 2024-11-07 223430](https://github.com/user-attachments/assets/eb3db4be-874c-41ec-b9d4-6431c006e77d)
 
 
+# INFERENCE
 
+
+# CONCLUSION
+
+
+
+# RECOMENDATION
