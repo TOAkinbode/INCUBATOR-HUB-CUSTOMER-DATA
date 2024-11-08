@@ -66,4 +66,13 @@ The data used on excel was also imported to power Bi through the following steps
 - click to preview
 - then transform data
 
+### DATA EXPLORATORY
+  During the analysis of the customer data , the three analysis tools were used (excel, SQL and Power BI), thorough data exploration was done, some new columns were added in excel, for example the 'Subscription Duration' column, some other columns were added in SQL (Cancelled subscription column and Active Subscription Column) with the help of sql quesries and also in power BI, I added some conditional column and measures.
   
+  The pivot table and pivot charts were used to summerise the report in excel.
+   
+  Differen types of visuals were generated on Power BI that gave an overview of the sales pattern as it was on excel. 
+  
+  Power BI visuals also provided a detailed trend in the products performances as it relates to different regions.
+  
+### DATA ANALYSIS  
