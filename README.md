@@ -144,8 +144,94 @@ The data used on excel was also imported to power Bi through the following steps
 
 ![Screenshot 2024-11-08 205408](https://github.com/user-attachments/assets/956ff77c-5767-417c-a5b6-63068315cf48)
 
+#### ANALYSIS ON SQL
 
+- The following queries were written and executed on SQL
 
+- Total number of customers from each region
+```
+Select Region, Count (CustomerID) AS Total_Number_of_Customer
+from [dbo].[CUSTOMER_DATA] 
+where customerid is not null
+Group by Region
+```
+- The most popular subscription type by the number of customers
+```
+select subscriptionType, count (customerid) as Number_of_Customers
+from [dbo].[LITA_CUSTOMER_DATA] 
+Group by Subscriptiontype
+```
+- Customers who canceled their subscription within 6 months
+```
+select Region, Subscriptiontype, customerid, canceled, subscriptionstart 
+as No_of_Canceled_Subscription
+from [dbo].[LITA_CUSTOMER_DATA] 
+where canceled = 1 and month (subscriptionstart) between 1 and 6
+```
+- Total number of Customers who cancelled their subscription within 6 month
+```
+select count(canceled) as No_of_canceled_sub
+from [dbo].[LITA_CUSTOMER_DATA] 
+where canceled = 1 and month (subscriptionstart) between 1 and 6
+```
+- The average subscription duration for all customers
+```
+Select count (customerid) as AllCustomers,
+Avg(DateDiff(day,subscriptionstart,subscriptionend)) As Avg_Subscription_Duration
+from [dbo].[LITA_CUSTOMER_DATA]
+where subscriptionend is not null
+```
+- Customers with subscriptions longer than 12 months
+```
+select customername, subscriptiontype, subscriptionstart,subscriptionend, subscription_duration
+from [dbo].[LITA_CUSTOMER_DATA]
+where DateDiff(Month,subscriptionstart,subscriptionend) >12
+```
+- Total revenue by subscription type
+```
+select Subscriptiontype, sum(Revenue) as Total_Revenue
+from [dbo].[LITA_CUSTOMER_DATA]
+Group by subscriptiontype
+```
+- Top 3 regions by subscription cancellations
+```
+select Top 3 Region, canceled
+from [dbo].[LITA_CUSTOMER_DATA]
+```
+- Total number of active and canceled subscriptions
+```
+Select 
+sum ( case when canceled = 0 then 1 else 0 end) as ActiveSubscriptions,
+sum (case when canceled = 1 then 1 else 0 end ) as Canceledsubscriptions
+from [dbo].[LITA_CUSTOMER_DATA]
+Group by canceled
+```
+- OR
+```
+Alter table [dbo].[LITA_CUSTOMER_DATA]
+add Active_subscription int
+
+select * from [dbo].[LITA_CUSTOMER_DATA]
+
+update [dbo].[LITA_CUSTOMER_DATA]
+set Active_subscription =
+case when canceled = 0 then 1 else 0 end
+
+Alter table [dbo].[LITA_CUSTOMER_DATA]
+add Non_Active_subscription int
+
+update [dbo].[LITA_CUSTOMER_DATA]
+set Non_Active_subscription =
+case when canceled = 1 then 1 else 0 end
+
+select * from [dbo].[LITA_CUSTOMER_DATA]
+
+select canceled, sum(Active_subscription) as Number_of_Active_Sub
+from [dbo].[LITA_CUSTOMER_DATA] group by canceled
+
+select canceled, sum(Non_Active_subscription) as Number_of_nonActive_Sub
+from [dbo].[LITA_CUSTOMER_DATA] group by canceled
+```
 
 
 
