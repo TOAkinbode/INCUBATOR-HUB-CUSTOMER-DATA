@@ -73,6 +73,6 @@ The data used on excel was also imported to power Bi through the following steps
    
   Differen types of visuals were generated on Power BI that gave an overview of the sales pattern as it was on excel. 
   
-  Power BI visuals also provided a detailed trend in the products performances as it relates to different regions.
+  Power BI visuals also provided a detailed trend in the subscription pattern in relation to the differenr subscrtion types in the different regions.
   
 ### DATA ANALYSIS  
