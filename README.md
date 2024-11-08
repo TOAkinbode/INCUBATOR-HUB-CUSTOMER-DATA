@@ -76,3 +76,45 @@ The data used on excel was also imported to power Bi through the following steps
   Power BI visuals also provided a detailed trend in the subscription pattern in relation to the differenr subscrtion types in the different regions.
   
 ### DATA ANALYSIS  
+
+##### On Excel, the following analysis were performed both with excel metrics, pivot tables and pivot charts
+
+- To calculate the Subscription Duration
+```
+=F2-E2
+```
+- Total Revenue
+```
+=SUM(H2:H33788)
+```
+- Average Revenue
+```
+=AVERAGE(H2:H33788)
+```
+- Average Subscription Duration
+```
+=AVERAGE(I2:I33788)
+```
+- Total Revenue per Region
+```
+=SUMIF(C2:C33788,"Region",H2:H33788)
+```
+- Average Subscription per Region
+```
+=AVERAGEIF(C2:C33788,"EAST",H2:H33788)
+```
+- Total Revenue by Subscription Type
+```
+=SUMIF(D2:D33788,"subscriptiontype",H2:H33788)
+```
+- Average Revenue by Subscription Type
+```
+=AVERAGEIF(D2:D33788,"subscriptiontype",H2:H33788)
+```
+- Count of each Subscription Type
+```
+=COUNTIF(D2:D33788,"subscriptiontype")
+```
+
+
+
