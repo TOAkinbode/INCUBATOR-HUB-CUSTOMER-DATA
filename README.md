@@ -3,6 +3,32 @@
 
 ## ANALYSIS OF INCUBATOR HUB'S CAPSTONE CUSTOMER DATA
 
+[PROJECT OVERVIEW](project_overview)
+
+[DATA SOURCES](data_sources)
+
+[Data Cleaning and Preparations](Data_Cleaning_and_Preparations)
+
+[DATA EXPLORATORY](data_exploratory)
+
+[DATA ANALYSIS](data_analysis)
+
+[EXCEL REPORTS (PIVOT TABLES AND PIVOT CHARTS)](excel_reports)
+
+[ANALYSIS ON SQL](analysis_on_SQL)
+
+[SQL REPORTS](sql_reports)
+
+[ANALYSIS ON POWER BI](analysis_on_power_bi)
+
+[POWER BI VISUALS](power_bi_visuals)
+
+[INFERENCE](inference)
+
+[CONCLUSION](conclusion)
+
+[RECOMENDATION](recomendation)
+
 
 ## PROJECT OVERVIEW
 This Project deals with the analysis of the subscription trend of the three major subscription type of Incubator Hub's Capstone Project. It pays cognisance to the performance of each subscription per Region and the rate of cancellation of subscription by customers.
