@@ -115,6 +115,8 @@ The data used on excel was also imported to power Bi through the following steps
 ```
 =COUNTIF(D2:D33788,"subscriptiontype")
 ```
+##### Below are the pivot tables and pivot charts generated on Excel
+![Screenshot 2024-11-08 205305](https://github.com/user-attachments/assets/42a3e74b-1b97-4bc9-8191-1ae5fe06eb3d)
 
 
 
