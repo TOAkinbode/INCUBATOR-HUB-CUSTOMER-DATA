@@ -287,7 +287,18 @@ from [dbo].[LITA_CUSTOMER_DATA] group by canceled
 
 - 
 # CONCLUSION
+- Basic subscription is the most popular subscription type and it is prominent in two Regions, the East and the North. It generated the highest Revenue and had the least number of cancelled subscriptions. There is no cancelled subscription in the East at all, the only Cancelled basic subscription is in the North.
 
+- Premium and Standard subscription type are prominent in the South and in the West, butb the number of cancelled subscription for both are higer the the number of non-cancelled subscription.
+
+- It is therefore concluded that the Basic subscription is the most efficient. 
 
 
 # RECOMENDATION
+- The Basic subscription should be introduced to the other two regions.
+
+- The Premium and Standard subcription type should be improved upon with features similar to the Basic subscription but with more customer friendly outlooks.
+
+- The Basic subscription type should also be improved upon while the other two types are introduced to the North and the East.
+
+-  
