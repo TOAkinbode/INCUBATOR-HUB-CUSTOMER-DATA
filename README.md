@@ -259,8 +259,27 @@ from [dbo].[LITA_CUSTOMER_DATA] group by canceled
 ![Screenshot 2024-11-15 125523](https://github.com/user-attachments/assets/b56d4a88-cd32-470b-b053-09c5254e373d)
 
 # INFERENCE
+- The total subscription for the three subscription types is 33,787
+  
+- The average subscription duration is 365
 
+- The total cancelled subscription is 15,175 while the total non-cancelled or active subscription is 18,612
 
+- The Total Revenue is 67,540,175
+
+- Total Revenue for Active Subscription is 37,208,727
+
+- Total Revenue for cancelled subscriptions are 30,331,448
+
+  * Total Revenue for Basic Subscription type is 33,776,735 and total revenue for cancelled basic subscription is 10,093,242
+ 
+  * Total Revenue for Premium subscription type is 16,899,064 and total revenue for cancelled premium subscription is 10,126,800
+ 
+  * Total Revenue for Standard subscription type 16,864,376 and total revenue for cancelled standard subscription is 10,111,406
+
+- There is no cancelled subscription in the East and the only subscription type in the East is Basic Subscription type
+
+- 
 # CONCLUSION
 
 
