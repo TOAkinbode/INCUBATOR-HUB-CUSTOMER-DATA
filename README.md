@@ -279,6 +279,12 @@ from [dbo].[LITA_CUSTOMER_DATA] group by canceled
 
 - There is no cancelled subscription in the East and the only subscription type in the East is Basic Subscription type
 
+- The prominenet subscription type in the North is also basic subscription, total cancelled = 10 million while non-cancelled = 7 million
+
+- The popular subscription type in the South is Premium subscription, total cancelled = 10 million while non-cancelled = 7 million
+
+- The subscription type in the West is Standard subscription, total cancelled = 10 million while non-cancelled = 7 million
+
 - 
 # CONCLUSION
 
